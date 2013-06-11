@@ -1,0 +1,135 @@
+/*------------------------ GLOBALS ---------------------------------*/
+@font-face {
+	font-family: PIXL;
+	src: url('PIXL.ttf');
+}
+
+html, body, div, span, a, p, blockquote, img{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family:PIXL;
+	color: #666666;
+}
+
+html, body {width:100%; height:100%; }
+
+body {
+	line-height: 1;
+	font-family: Tahoma;
+	background: #FFF;
+	height:100%;
+}
+
+a {
+    color: #666666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #666666;
+text-decoration:underline;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.break {
+    clear: both;
+}
+
+
+
+/*------------------------ Media Queries ---------------------------------*/
+
+
+/*------------------------ CONTAINERS ---------------------------------*/
+
+#Container_Window {
+	position:relative;
+	background:#000;
+    width: 320px;
+	height: 100%;
+	background-color:#eef0df;
+}
+
+#Header {
+	position:relative;
+    width: 320px;
+	height: 38px;
+	background-image:url(images/Pano.jpg);
+	overflow: hidden;
+}
+
+#Container_Content{
+	position: relative;
+    width: 320px;
+	height: 100%;
+	margin: 0 auto;
+	}
+
+#Container_Page{
+	position: relative;
+	height: 100%;
+	margin: 0 auto;
+	}
+
+#Content {
+	position: absolute;
+	background-color:white;
+	margin: 0 auto;
+    width: 320px;
+	height: 695px;	
+}
+
+#Container_Footer {
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 10px 10px 10px 10px;
+	text-align:center;
+    width: 300px;
+	top: 695px;
+}
+
+#Container_Slides {
+	position: absolute;
+	display: inline-block;
+	width: 277px;
+	height:370px;
+	top: 275px;
+	left: 465px;
+	overflow: hidden;
+}
+/*------------------------ END CONTAINERS ---------------------------------*/
+
+#SlidePicker {
+	position: absolute;
+	display:inline-block;
+	top: 650px;
+	left:315px;
+}
+
+.img_thumbnails {
+	width: 20px;
+	height: 27px;
+	margin-right: 2px;
+	margin-left: 2px;
+	float: left;
+	cursor: pointer;
+}
+
+#Slide_Content {
+	position: relative;
+	display: inline-block;
+	width: 25000px;
+	height:25000px;
+}
+
+.Slides {
+	float:left;
+	width: 277px;
+	height:370px;
+}

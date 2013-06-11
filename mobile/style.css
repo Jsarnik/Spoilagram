@@ -1,0 +1,300 @@
+#Photo_Border {
+	position: absolute;
+	display: inline-block;	
+	top: 225px;
+	left: 200px;
+	width:540px;
+	height:400px;
+	background-color:#FFF;
+	overflow: hidden;
+opacity: .5;
+display:none;
+}
+
+
+#progressBar {
+position: absolute;
+height: 20px;
+width: 400px;
+top:209px;
+left: 210px;
+background: transparent;
+border: 1px solid black;
+display:none;
+
+}
+
+#progress-Color {
+position:relative;
+height:20px;
+width: 0px;
+background-color:#C80000;
+display:none;
+}
+
+#status {
+position:absolute;
+top:200px;
+left: 0px;
+font-family:PIXL;
+z-index: 1000;
+width:320px;
+text-align:center;
+}
+
+
+#close_button {
+position: absolute;
+left: 300px;
+width: 20px;
+height: 20px;
+}
+
+#move {
+position: absolute;
+	top: 77px;
+left:0px;
+width:320px;
+height:25px;
+opacity: .6;
+background-color:#484848;
+color: #FFFFFF;
+z-index: 201;
+display:none;
+text-align:center;
+padding-top:40px;
+}
+
+#Photo_Frame {
+	position: absolute;
+	display: inline-block;	
+	top: 77px;
+	left: 0px;
+	width:320px;
+	height:320px;
+	background-color:transparent;
+	//border-left: 1px solid black;
+	//border-right: 1px solid black;	
+	z-index:10;
+		overflow: hidden;	
+		border: 0;
+		margin: 0;
+		padding: 0;
+
+}
+
+
+#Crop {
+	position: relative;
+	display: inline-block;
+	width: 25000px;
+	height:25000px;	
+}
+
+.drag{
+	position: absolute;
+	display: inline-block;
+	width:auto;
+	height:auto;
+	background-color:transparent;
+	z-index: 0;
+cursor: move;
+}
+
+#Thumb_Container {
+	position: relative;
+	display: inline-block;
+	width: 320px;
+	top: 300px;
+	left: 0px;
+	overflow: hidden;
+}
+
+
+#Thumb_Pages {
+	position: relative;
+	display: inline-block;
+	width: 5000px;
+}
+
+.Pages {
+	float:left;
+	width: 320px;
+	padding: 0px;
+	margin:0px;
+}
+
+.Thumbs {
+	position: relative;
+	float: left;
+	width:90px;
+	height:120px;
+	margin-right: 14px;	
+	margin-left: 2px;	
+	font-family:PIXL;
+	font-size: 9px;
+	text-align:center;
+cursor: pointer;
+display: inline-block;
+}
+
+#left, #right {
+	position:absolute;
+	display: inline-block;	
+	cursor:pointer;
+	width: 9px;
+	height: 14px;
+}
+
+#left{
+	background-image:url(images/arrow-left.png);
+	top: 661px;
+	left: 760px;
+}
+#right{
+	background-image:url(images/arrow-right.png);
+	top: 661px;
+	left: 900px;
+}
+
+#Page_Num {
+	position:absolute;
+	top: 662px;
+	left: 800px;
+	font-family:PIXL;
+	font-size: 12px;
+}
+
+.Divider {
+	position: absolute;
+	left: 0px;
+	width: 320px;
+	height:4px;
+	top: 550px;
+	margin: 0 auto;
+	background-image:url(images/divider.png);
+}
+
+#Step1 {
+	position: absolute;
+	width: 20px;
+	height: 12px;
+	top: 70px;
+	left: 25px;
+	background-image:url(images/num-1.png);
+}
+#Step1_txt {
+	position: absolute;
+	top: 180px;
+	left: 225px;
+	font-size:11px;
+}
+
+#Step2 {
+	position: absolute;
+	width: 22px;
+	height: 12px;
+	top: 438px;
+	left: 20px;
+	background-image:url(images/num-2.png);
+}
+#Step2_txt {
+	position: absolute;
+	height: 12px;
+	top: 400px;
+	font-size:11px;
+	width:320px;
+	text-align:center;
+}
+
+#Step3 {
+	position: absolute;
+	width: 20px;
+	height: 16px;
+	top: 715px;
+	left: 200px;
+	background-image:url(images/num-3.png);
+}
+#Step3_txt {
+	position: absolute;
+	top: 718px;
+	left: 226px;
+	font-size:11px;
+}
+
+#Save_btn {
+	position: absolute;
+	width: 75px;
+	height: 25px;
+	top: 50px;
+left: 245px;
+	background-image:url(images/save_btn.png);
+}
+
+#Facebook{
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	top: 710px;
+	left: 945px;
+	background-image:url(images/facebook-btn.png);
+}
+
+#Twitter{
+	position: absolute;
+	width: 27px;
+	height: 28px;
+	top: 710px;
+	left: 980px;
+	background-image:url(images/tweet-btn.png);
+}
+
+#Upload_btn {
+	position: absolute;
+top: 50px;
+left: 0px;
+	width: 75px;
+	height: 25px;
+	z-index: 155;
+cursor: pointer;
+}
+
+#Upload_img{
+	position: absolute;
+	width: 126px;
+	height: 34px;
+	top: 450px;
+	left: 410px;
+	z-index: 156;
+cursor: pointer;
+}
+
+#Upload_php{
+	position: absolute;
+	width: 126px;
+	height: 34px;
+	top: 250px;
+	left: 210px;
+	z-index: 100;
+}
+
+
+#WaterMarks {
+	position: absolute;
+	display: inline-block;	
+	top: 77px;
+	left: 0px;
+	width:320px;
+	height:320px;
+	overflow: hidden;
+	z-index: 200;
+	display:inline-block;
+}
+
+.thumbs{
+	margin-bottom:5px;
+}
+
+.pointers {
+cursor: pointer;
+}
